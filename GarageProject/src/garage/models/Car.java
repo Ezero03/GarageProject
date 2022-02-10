@@ -27,6 +27,16 @@ public class Car {
         this.kmrodes = kmrodes;
     }
 
+    public String getMarca(){
+        return this.marca;
+    }
+
+    public String setMarca(){
+        if(this.marca.equals("")){
+            return this.marca = marca;
+        }
+    }
+
     public String getModel(){
         return this.model;
     }
@@ -34,6 +44,16 @@ public class Car {
     public String setModel(){
         if(this.model.equals("")){
             return this.model = model;
+        }
+    }
+
+    public String getMatricula(){
+        return this.matricula;
+    }
+
+    public String setMatricula(){
+        if(this.matricula.equals("")){
+            return this.matricula = matricula;
         }
     }
 }
